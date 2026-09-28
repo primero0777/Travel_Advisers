@@ -50,7 +50,7 @@ un agrément que l'agence ne détient pas selon le client.
 
 Ces 3 visuels affichent encore l'ancienne adresse campustravel31@gmail.com en incrustation (texte
 fixé dans l'image, non modifiable depuis le site) : à régénérer dans l'outil de conception d'origine
-(Canva ou autre) si l'agence veut les mettre à jour avec contact@campustravelhk.com avant de les
+(Canva ou autre) si l'agence veut les mettre à jour avec contact@travelsadvisers.com avant de les
 repartager sur les réseaux sociaux.
 
 Affiche "Procédure Campus France" (fournie le 2026-09-17, fichier "kakemono externe.png", version

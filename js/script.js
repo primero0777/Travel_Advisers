@@ -377,7 +377,7 @@
         `Destination visée : ${destination}\n\n` +
         `Message :\n${message}`;
 
-      const mailtoUrl = `mailto:contact@campustravelhk.com?subject=${encodeURIComponent(
+      const mailtoUrl = `mailto:contact@travelsadvisers.com?subject=${encodeURIComponent(
         subject
       )}&body=${encodeURIComponent(body)}`;
 
@@ -385,7 +385,7 @@
 
       if (formNote) {
         formNote.textContent =
-          "Votre client mail devrait s'ouvrir avec votre demande pré-remplie. Vous pouvez aussi nous écrire directement à contact@campustravelhk.com.";
+          "Votre client mail devrait s'ouvrir avec votre demande pré-remplie. Vous pouvez aussi nous écrire directement à contact@travelsadvisers.com.";
       }
     });
   }

@@ -1,7 +1,7 @@
-# Campus Travel H&K : site vitrine
+# Travels Advisers : site vitrine
 
 Site multi-pages statique (HTML / CSS / JS vanilla, sans build step) pour l'agence de mobilité
-internationale **Campus Travel H&K** (Lomé, Togo).
+internationale **Travels Advisers** (Lomé, Togo).
 
 ## Structure
 
@@ -88,7 +88,7 @@ qu'elles n'ont pas été validées.
 
 ## SEO et domaine personnalisé
 
-Le domaine `campustravelhk.com` est acquis mais pas encore branché. `sitemap.xml`, `robots.txt`
+Le domaine `travelsadvisers.com` est acquis mais pas encore branché. `sitemap.xml`, `robots.txt`
 et le fichier `CNAME` sont déjà préparés pour ce domaine (plus besoin d'y retoucher une fois le
 DNS configuré). Si une page est ajoutée ou retirée plus tard, penser à mettre à jour `sitemap.xml`
 en conséquence.
@@ -96,18 +96,18 @@ en conséquence.
 Pour activer le domaine, deux étapes restent à faire **côté registrar / hébergeur du domaine**
 (hors de portée de ce dépôt) :
 
-1. **Chez le registrar de `campustravelhk.com`** : ajouter les enregistrements DNS pointant vers
+1. **Chez le registrar de `travelsadvisers.com`** : ajouter les enregistrements DNS pointant vers
    GitHub Pages :
    - 4 enregistrements `A` sur le domaine racine (`@`) vers `185.199.108.153`, `185.199.109.153`,
      `185.199.110.153`, `185.199.111.153`
-   - un enregistrement `CNAME` sur `www` vers `primero0777.github.io` (optionnel, si `www.campustravelhk.com` doit aussi fonctionner)
-2. **Dans les réglages GitHub Pages du dépôt** (Settings → Pages) : renseigner `campustravelhk.com`
+   - un enregistrement `CNAME` sur `www` vers `primero0777.github.io` (optionnel, si `www.travelsadvisers.com` doit aussi fonctionner)
+2. **Dans les réglages GitHub Pages du dépôt** (Settings → Pages) : renseigner `travelsadvisers.com`
    comme domaine personnalisé (le fichier `CNAME` du dépôt le fait déjà à moitié, GitHub demande
    souvent de confirmer côté interface) puis cocher « Enforce HTTPS » une fois le certificat
    généré automatiquement (peut prendre de quelques minutes à quelques heures après la
    propagation DNS).
 
-En attendant, le site reste accessible sur `https://primero0777.github.io/campustravelhk/`.
+En attendant, le site reste accessible sur `https://primero0777.github.io/Travel_Advisers/`.
 
 ## Aperçu local
 

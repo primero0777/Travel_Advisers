@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://campustravelhk.com/sitemap.xml
+Sitemap: https://travelsadvisers.com/sitemap.xml
