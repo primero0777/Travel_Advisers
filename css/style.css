@@ -434,13 +434,13 @@ button{ font-family: inherit; }
    hauteur du bloc de texte en face, recadrée via object-fit, plutôt que de
    garder son format 4/3 et laisser un vide sous une photo plus courte que
    le texte. */
-.split-layout-reverse{ grid-template-columns: 1fr 1.3fr; align-items: stretch; }
-.split-photo-wide{ aspect-ratio: auto; min-height: 320px; }
+.split-layout-reverse{ grid-template-columns: .8fr 1.3fr; align-items: stretch; }
+.split-photo-wide{ aspect-ratio: auto; min-height: 260px; }
 .split-photo-wide img{ object-position: center 15%; }
 
 @media (max-width: 900px) and (min-width: 641px){
   .split-layout-reverse{ gap: 28px; }
-  .split-photo-wide{ min-height: 260px; }
+  .split-photo-wide{ min-height: 220px; }
 }
 @media (max-width: 640px){
   .split-layout-reverse{ grid-template-columns: 1fr; }
