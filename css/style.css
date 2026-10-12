@@ -550,7 +550,7 @@ button{ font-family: inherit; }
 .form-row{ margin-bottom: 18px; }
 .form-row-2{ display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 label{ display: flex; align-items: center; gap: 7px; font-size: .82rem; font-weight: 700; margin-bottom: 6px; color: var(--navy-deep); }
-label i{ color: var(--gold); font-size: .85rem; width: 16px; text-align: center; flex-shrink: 0; }
+label i{ color: var(--navy-deep); font-size: .85rem; width: 16px; text-align: center; flex-shrink: 0; }
 input, select, textarea{
   width: 100%; padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px;
   font-family: var(--font-body); font-size: .95rem; background: var(--white); color: var(--ink);
@@ -628,9 +628,9 @@ textarea{ resize: vertical; }
 
 .final-cta{ text-align: center; }
 .final-cta h2{ color: var(--white); max-width: 620px; margin: 0 auto .4em; }
-.final-cta > .wrap > p{ color: rgba(255,255,255,.75); max-width: 520px; margin: 0 auto 32px; }
+.final-cta > .wrap > p:not(.final-cta-faq){ color: rgba(255,255,255,.75); max-width: 520px; margin: 0 auto 32px; }
 .final-cta-buttons{ display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
-.final-cta-faq{ margin-top: 26px; font-size: .88rem; color: rgba(255,255,255,.6); }
+.final-cta-faq{ margin-top: 38px; font-size: .88rem; color: rgba(255,255,255,.6); }
 .final-cta-faq a{ color: var(--white); text-decoration: underline; }
 
 .social-gallery{
