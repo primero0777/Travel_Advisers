@@ -509,6 +509,22 @@ button{ font-family: inherit; }
   color: var(--white); font-family: var(--font-mono); font-size: .68rem; font-weight: 700;
 }
 
+/* En dessous de 900px, un carrousel au lieu d'empiler les 6 témoignages en
+   une longue colonne : défilement horizontal au doigt, chaque carte "cale"
+   au bord (scroll-snap) et la suivante dépasse légèrement pour inviter à
+   glisser. Le -24px/24px fait déborder le carrousel jusqu'au bord de l'écran
+   sans casser le padding du .wrap parent. */
+@media (max-width: 900px){
+  .testimonials-grid{
+    display: flex; grid-template-columns: none; margin: 44px -24px 0; padding: 0 24px 10px;
+    gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+  }
+  .testimonials-grid .testimonial{ flex: 0 0 78%; scroll-snap-align: start; }
+}
+@media (max-width: 480px){
+  .testimonials-grid .testimonial{ flex-basis: 86%; }
+}
+
 /* ---------- FAQ / accordion ---------- */
 .accordion{ margin-top: 40px; border-top: 1px solid var(--line); }
 .acc-item{ border-bottom: 1px solid var(--line); }
