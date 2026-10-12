@@ -429,17 +429,22 @@ button{ font-family: inherit; }
   .split-photo{ position: static; max-width: 320px; aspect-ratio: 3/4; }
 }
 
-/* Variante : photo (large, paysage) à gauche, texte à droite. */
-.split-layout-reverse{ grid-template-columns: 1fr 1.3fr; }
-.split-photo-wide{ aspect-ratio: 4 / 3; }
+/* Variante : photo (large, paysage) à gauche, texte à droite. Alignée en
+   stretch (au lieu de start comme .split-layout) : la photo occupe toute la
+   hauteur du bloc de texte en face, recadrée via object-fit, plutôt que de
+   garder son format 4/3 et laisser un vide sous une photo plus courte que
+   le texte. */
+.split-layout-reverse{ grid-template-columns: 1fr 1.3fr; align-items: stretch; }
+.split-photo-wide{ aspect-ratio: auto; min-height: 320px; }
 .split-photo-wide img{ object-position: center 15%; }
 
 @media (max-width: 900px) and (min-width: 641px){
   .split-layout-reverse{ gap: 28px; }
+  .split-photo-wide{ min-height: 260px; }
 }
 @media (max-width: 640px){
   .split-layout-reverse{ grid-template-columns: 1fr; }
-  .split-photo-wide{ max-width: 220px; aspect-ratio: 4/3; }
+  .split-photo-wide{ max-width: 220px; min-height: 0; aspect-ratio: 4/3; }
 }
 
 /* ---------- Pourquoi / stat ---------- */
@@ -612,7 +617,7 @@ textarea{ resize: vertical; }
 .final-cta-faq a{ color: var(--white); text-decoration: underline; }
 
 .social-gallery{
-  display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; margin-top: 36px;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 36px;
 }
 .social-post{
   display: block; aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden;
@@ -622,9 +627,6 @@ textarea{ resize: vertical; }
 .social-post:hover img{ transform: scale(1.08); }
 .social-gallery-note{ margin-top: 22px; font-size: .88rem; color: var(--muted); }
 
-@media (max-width: 760px){
-  .social-gallery{ grid-template-columns: repeat(3, 1fr); }
-}
 @media (max-width: 460px){
   .social-gallery{ grid-template-columns: repeat(2, 1fr); }
 }
@@ -637,7 +639,10 @@ textarea{ resize: vertical; }
 }
 
 /* ---------- Intro de page (texte + photo), réutilisé sur plusieurs pages ---------- */
-.page-intro{ display: grid; grid-template-columns: 1fr 220px; gap: 40px; align-items: center; }
+/* fit-content (et non 1fr) sur la 1re colonne : le texte est plafonné à 520px
+   (voir .page-intro-text) donc une colonne 1fr laissait un vide entre le
+   texte et la photo plutôt que de la faire suivre directement. */
+.page-intro{ display: grid; grid-template-columns: fit-content(560px) 220px; gap: 40px; align-items: center; }
 .page-intro-text{ font-size: 1.1rem; color: var(--muted); max-width: 520px; }
 .page-intro-photo{
   margin: 0; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-card);
