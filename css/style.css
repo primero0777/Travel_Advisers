@@ -549,7 +549,8 @@ button{ font-family: inherit; }
 .contact-form{ background: var(--mist); border: 1px solid var(--line); border-radius: var(--radius); padding: 36px; }
 .form-row{ margin-bottom: 18px; }
 .form-row-2{ display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
-label{ display: block; font-size: .82rem; font-weight: 700; margin-bottom: 6px; color: var(--navy-deep); }
+label{ display: flex; align-items: center; gap: 7px; font-size: .82rem; font-weight: 700; margin-bottom: 6px; color: var(--navy-deep); }
+label i{ color: var(--gold); font-size: .85rem; width: 16px; text-align: center; flex-shrink: 0; }
 input, select, textarea{
   width: 100%; padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px;
   font-family: var(--font-body); font-size: .95rem; background: var(--white); color: var(--ink);
