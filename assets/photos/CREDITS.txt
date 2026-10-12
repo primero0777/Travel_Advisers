@@ -34,29 +34,24 @@ représentation trompeuse qu'une vraie photo de tiers utilisée sans autorisatio
 néanmoins des placeholders à remplacer par de vraies photos de clients ou de l'équipe dès que
 possible (voir README.md).
 
-Bannière promotionnelle fournie par l'agence (fichier "brochure.png" fourni le 2026-09-16,
-reconverti en JPEG pour réduire son poids) :
-brochure.jpg : Bannière "Concrétiser votre rêve d'étude à l'étranger" avec logo et coordonnées
+Visuels de réseaux sociaux fournis par l'agence sous la marque Travels Advisers, fournis le
+2026-10-12 (redimensionnés à 1100px de haut max, convertis en JPEG pour réduire leur poids),
+utilisés dans la galerie réseaux sociaux d'index.html :
+social-etudes-destinations.jpg : "Réalisez votre projet d'études à l'étranger", France/Belgique/Suisse/Canada
+social-etudes-services.jpg     : "Réalisez votre projet d'études à l'étranger" + liste des services
+social-etudes-visa.jpg         : "Réalisez votre projet d'études à l'étranger" + accompagnement visa
+social-etudes-france-2027.jpg  : "Étudier en France pour la rentrée 2027-2028", candidatures oct-déc 2026
 
-Visuels de réseaux sociaux fournis par l'agence (fichiers "Campus Travel MARS/AVRIL/Post...",
-fournis le 2026-09-16, redimensionnés en 600x600 pour le web) :
-social-logement.jpg        : "Besoin d'un logement étudiant à l'étranger ?"
-social-etudier-europe.jpg  : "Étudier en Europe commence par les bonnes démarches"
-social-motivation-lundi.jpg: "Hello Lundi : nouvelle semaine, nouveaux objectifs" (post d'engagement, sans lien direct avec une destination ou un service)
+Remplacent les anciens visuels "brochure.jpg", "social-logement.jpg", "social-etudier-europe.jpg",
+"social-motivation-lundi.jpg", "social-campus-france.jpg" et "promo-campus-france.jpg" (ancienne
+marque Campus Travel H&K, supprimés du dépôt le 2026-10-12). Les deux bannières larges qui
+utilisaient ces fichiers (destinations.html "Focus France" et le bandeau promo de contact.html) ont
+été retirées faute d'équivalent au format paysage parmi les nouveaux visuels, plutôt que d'y forcer
+un visuel au mauvais format : à reconstituer si l'agence fournit une bannière large.
 
-social-visa-avi.jpg a été retiré du site puis supprimé de ce dossier le 2026-09-19 : le post
-("Obtiens ton AVI en moins de 48h") faisait référence à l'AVI (Attestation de Virement Irrévocable),
-un agrément que l'agence ne détient pas selon le client.
-
-Ces 3 visuels affichent encore l'ancienne adresse campustravel31@gmail.com en incrustation (texte
-fixé dans l'image, non modifiable depuis le site) : à régénérer dans l'outil de conception d'origine
-(Canva ou autre) si l'agence veut les mettre à jour avec contact@travelsadvisers.com avant de les
-repartager sur les réseaux sociaux.
-
-Affiche "Procédure Campus France" (fournie le 2026-09-17, fichier "kakemono externe.png", version
-mise à jour avec le bon email et le vrai logo, remplace l'ancienne version du 2026-09-16) :
-social-campus-france.jpg  : recadrage carré, utilisé dans la galerie réseaux sociaux d'index.html
-promo-campus-france.jpg   : version large, utilisée en bannière sur destinations.html
+Les deux photos d'illustration de services.html qui réutilisaient d'anciens visuels réseaux sociaux
+(bloc d'intro et bloc "Focus logement") pointent maintenant vers apropos-vision.jpg et dest-france.jpg
+(mêmes photos neutres déjà utilisées ailleurs sur le site, voir plus haut).
 
 Visuel du hero (page d'accueil), fourni par l'agence le 2026-09-17 (fichier "for hero.png",
 renommé pour respecter la convention de nommage du projet) :
