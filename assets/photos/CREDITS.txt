@@ -8,6 +8,10 @@ dest-irlande.jpg    : Ha'penny Bridge / Dublin : photographe : Sophie Popplewell
 dest-canada.jpg     : Skyline / Montréal : photographe : Nathalia Segato : unsplash.com
 dest-belgique.jpg   : Tour de l'Hôtel de Ville / Bruxelles : photographe : Tobias Rademacher : unsplash.com
 dest-suisse.jpg     : Lac Léman et jet d'eau / Genève : photographe : Ryan Klaus : unsplash.com
+apropos-vision-globe.jpg : Jeune diplômée en toge, globe terrestre à la main, dans une librairie
+  (section "Notre vision" de a-propos.html) : photographe : Brooke Balentine : unsplash.com.
+  Recadrée de 1600x2399 (portrait) à 1600x900 (16:9) pour le bandeau large de la page, en gardant
+  la toque et le globe dans le cadre.
 
 Logo (assets/logo.png, assets/logo-white.png, assets/favicon.png) : le vrai logo de l'agence sous
 sa nouvelle marque Travels Advisers, fourni le 2026-10-05 (lockup complet couleur, fond
