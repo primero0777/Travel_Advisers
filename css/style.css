@@ -634,7 +634,7 @@ textarea{ resize: vertical; }
 .final-cta-faq a{ color: var(--white); text-decoration: underline; }
 
 .social-gallery{
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 36px;
+  display: grid; grid-template-columns: repeat(2, 1fr); max-width: 560px; margin: 36px auto 0; gap: 16px;
 }
 .social-post{
   display: block; aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden;
@@ -643,10 +643,6 @@ textarea{ resize: vertical; }
 .social-post img{ width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
 .social-post:hover img{ transform: scale(1.08); }
 .social-gallery-note{ margin-top: 22px; font-size: .88rem; color: var(--muted); }
-
-@media (max-width: 460px){
-  .social-gallery{ grid-template-columns: repeat(2, 1fr); }
-}
 
 @media (max-width: 760px){
   .services-teaser{ grid-template-columns: 1fr 1fr; }

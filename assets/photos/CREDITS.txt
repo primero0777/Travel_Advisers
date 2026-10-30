@@ -42,9 +42,11 @@ Visuels de réseaux sociaux fournis par l'agence sous la marque Travels Advisers
 2026-10-12 (redimensionnés à 1100px de haut max, convertis en JPEG pour réduire leur poids),
 utilisés dans la galerie réseaux sociaux d'index.html :
 social-etudes-destinations.jpg : "Réalisez votre projet d'études à l'étranger", France/Belgique/Suisse/Canada
-social-etudes-services.jpg     : "Réalisez votre projet d'études à l'étranger" + liste des services
 social-etudes-visa.jpg         : "Réalisez votre projet d'études à l'étranger" + accompagnement visa
 social-etudes-france-2027.jpg  : "Étudier en France pour la rentrée 2027-2028", candidatures oct-déc 2026
+
+social-etudes-services.jpg a été retiré du site puis supprimé de ce dossier le 2026-10-30 : coquille
+("PROJET D'ETUTES" au lieu de "D'ÉTUDES") incrustée dans l'image, non corrigeable depuis le site.
 
 Remplacent les anciens visuels "brochure.jpg", "social-logement.jpg", "social-etudier-europe.jpg",
 "social-motivation-lundi.jpg", "social-campus-france.jpg" et "promo-campus-france.jpg" (ancienne
