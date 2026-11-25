@@ -13,16 +13,15 @@ apropos-vision-globe.jpg : Jeune diplômée en toge, globe terrestre à la main,
   Recadrée de 1600x2399 (portrait) à 1600x900 (16:9) pour le bandeau large de la page, en gardant
   la toque et le globe dans le cadre.
 
-Logo (assets/logo.png, assets/logo-white.png, assets/favicon.png) : le vrai logo de l'agence sous
-sa nouvelle marque Travels Advisers, fourni le 2026-10-05 (lockup complet couleur, fond
-transparent). assets/logo.png est ce lockup recadré serré (emblème "X" + texte "Travels Advisers"
-tel que dessiné dans le fichier original), affiché en une seule image dans l'en-tête/pied de page.
-assets/logo-white.png est la même image recolorée en blanc (vraie image, pas un filtre CSS, pour
-éviter un bug de rendu constaté sur certains navigateurs mobiles) : utilisée par js/script.js sur
-l'en-tête transparent au-dessus du hero, et directement dans le HTML pour le logo du pied de page
-sur fond sombre. assets/favicon.png est un recadrage de l'emblème seul (le "X"), sur fond
-transparent carré pour rester lisible en petit format d'onglet. Remplace le précédent logo Campus
-Travel H&K.
+Logo (assets/logo.png, assets/logo-white.png, assets/favicon.png) : nouvelle version du logo
+Travels Advisers fournie le 2026-11-25 (lockup "X" + Travels en or, Advisers et le ruban central du
+"X" en blanc — pensé pour un fond sombre, fond du fichier transparent). assets/logo-white.png est
+ce fichier tel que fourni, recadré serré : utilisé par js/script.js sur l'en-tête transparent
+au-dessus du hero, et dans le HTML pour le logo du pied de page sur fond sombre. assets/logo.png
+est la même image avec le blanc (ruban + "Advisers") recoloré en navy (#0A1957) pour rester lisible
+sur l'en-tête blanc une fois la page scrollée. assets/favicon.png est un recadrage de l'emblème
+seul (le "X", version navy) sur fond transparent carré. Remplace la version précédente du logo
+Travels Advisers (2026-10-05).
 
 Photos neutres générées par IA, fournies par l'agence le 2026-09-17 (fichiers "Image_fx(...).jpg",
 sans texte ni logo incrusté) :
