@@ -731,6 +731,8 @@ textarea{ resize: vertical; }
 .footer-legal-nav{ display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; }
 .footer-legal-nav a{ color: rgba(255,255,255,.55); }
 .footer-legal-nav a:hover{ color: var(--white); text-decoration: underline; }
+.footer-credit a{ color: rgba(255,255,255,.55); }
+.footer-credit a:hover{ color: var(--white); text-decoration: underline; }
 
 /* ---------- Lightbox galerie ---------- */
 .social-post{ border: none; padding: 0; background: none; cursor: pointer; font: inherit; }
