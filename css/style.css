@@ -282,7 +282,7 @@ button{ font-family: inherit; }
 .departure-track{
   display: flex; gap: 44px; white-space: nowrap; width: max-content;
   font-family: var(--font-mono); font-size: .82rem; letter-spacing: .12em;
-  animation: ticker 28s linear infinite;
+  animation: ticker 84s linear infinite;
 }
 .departure-track span{
   display: inline-flex; align-items: center; gap: 10px;
