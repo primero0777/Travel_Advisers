@@ -261,7 +261,7 @@ button{ font-family: inherit; }
 .hero-dot-1{ width: 16px; height: 16px; top: 34px; left: -18px; }
 .hero-dot-2{ width: 10px; height: 10px; bottom: 90px; right: -12px; background: var(--gold-pale); }
 .eyebrow{
-  font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .14em; font-size: .78rem;
+  font-family: var(--font-body); text-transform: uppercase; letter-spacing: .14em; font-size: .78rem;
   color: var(--gold); font-weight: 700; margin-bottom: 18px;
 }
 .eyebrow-light{ color: rgba(255,255,255,.75); }
