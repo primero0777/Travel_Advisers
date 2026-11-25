@@ -323,6 +323,10 @@ button{ font-family: inherit; }
 }
 .section-alt{ background-color: var(--mist); }
 .section-tight{ padding: 48px 0 0; }
+/* La première section après le hero n'a que le bandeau de destinations
+   juste au-dessus : le padding-top standard de .section (110px) laisse
+   un vide qui se voit, faute de contenu pour le justifier. */
+.hero + .section{ padding-top: 56px; }
 .promo-banner{ width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--shadow-card); }
 .promo-banner-block{ margin: 60px 0 0; }
 .promo-banner-block .eyebrow{ margin-bottom: 14px; }
